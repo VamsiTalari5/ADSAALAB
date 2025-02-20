@@ -2,20 +2,7 @@
 // Inserting a key on a B-tree in Java
 import java.util.Stack;
 
-public class BTree {
-    private int T;
-
-    public class Node {
-        int n;
-        int key[] = new int[2 * T - 1];
-        Node child[] = new Node[2 * T];
-        boolean leaf = true;
-
-        public int Find(int k) {
-// Inserting a key on a B-tree in Java
-import java.util.Stack;
-
-public class BTree {
+ class BTree {
     private int T;
 
     public class Node {
@@ -369,5 +356,4 @@ public class BTree {
         System.out.println();
         b.Show();
     }
-}
-          
+}     
